@@ -77,6 +77,32 @@ The dataset includes:
 - Microsoft Excel
     - Source dataset storage
 
+<h2>Analysis Process</h2>
+
+<b>1. Data Preparation</b>
+- Imported survey dataset into Power BI
+- Reviewed and cleaned data fields
+- Standardized categorical values where necessary
+  
+<b>2. Data Modeling</b>
+- Organized survey variables
+- Established appropriate data types
+- Prepared measures for visualization
+  
+<b>3. Dashboard Development</b>
+
+Built interactive visualizations to answer key questions:
+
+- What roles earn the highest salaries?
+- Which programming languages are most popular?
+- Where are respondents located?
+- How satisfied are professionals with their careers?
+- How difficult is it to enter the field?
+  
+<b>4. Insight Generation</b>
+
+Analyzed patterns to identify meaningful trends across the data profession landscape.
+
 <h2>Dashboard Preview</h2>
 
 <img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
@@ -91,8 +117,8 @@ The dashboard contains several visualizations designed to answer key business qu
 
 - Total survey participants
 - Average age of respondents
-
-<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<p align="center">
+<img src="https://imgur.com/eL1diev.png" height="50%" width="50%" />
 <br />
 <br />
 
@@ -105,12 +131,12 @@ This visualization compares average salaries across various data professions and
 - Identifies the highest-paying roles
 - Allows comparison between career paths
 - Helps users understand compensation expectations
-
-<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<p align="center">
+<img src="https://imgur.com/HBljRmT.png" height="50%%" width="50%%" />
 <br />
 <br />
 
-<h3>Favorite Programming Language</h3>
+<h3>3. Favorite Programming Language</h3>
 
 A column chart showing the most popular programming languages among data professionals.
 
@@ -119,12 +145,12 @@ A column chart showing the most popular programming languages among data profess
 - Python emerged as the dominant programming language
 - Highlights industry skill preferences
 - Useful for individuals entering the field
-
-<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<p align="center">
+<img src="https://imgur.com/2Gxhltu.png" height="50%%" width="50%%" />
 <br />
 <br />
 
-<h3>Country of Participants</h3>
+<h3>4. Country of Participants</h3>
 
 A treemap visualizing geographic distribution.
 
@@ -133,12 +159,12 @@ A treemap visualizing geographic distribution.
 - Survey participants came from multiple countries
 - The United States had the largest representation
 - Demonstrates the global demand for data careers
-
-<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<p align="center">
+<img src="https://imgur.com/55ajZ3b.png" height="50%%" width="50%%" />
 <br />
 <br />
 
-<h3>Satisfaction with Work-Life Balance</h3>
+<h3>5. Satisfaction with Work-Life Balance</h3>
 
 A gauge visualization measuring overall work-life balance satisfaction.
 
@@ -146,12 +172,12 @@ A gauge visualization measuring overall work-life balance satisfaction.
 
 - Provides a quick assessment of employee well-being
 - Helps identify overall sentiment within the industry
-
-<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<p align="center">
+<img src="https://imgur.com/tl5o4J8.png" height="50%%" width="50%%" />
 <br />
 <br />
 
-<h3>Satisfaction with Salary</h3>
+<h3>6. Satisfaction with Salary</h3>
 
 A gauge visualization showing overall salary satisfaction.
 
@@ -159,12 +185,12 @@ A gauge visualization showing overall salary satisfaction.
 
 - Measures how compensation aligns with employee expectations
 - Can highlight gaps between salary and satisfaction
-
-<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<p align="center">
+<img src="https://imgur.com/68zi1tc.png" height="50%%" width="50%%" />
 <br />
 <br />
 
-<h3>Difficulty Breaking Into Data</h3>
+<h3>7. Difficulty Breaking Into Data</h3>
 
 A donut chart illustrating how respondents perceived entering the field.
 
@@ -172,9 +198,14 @@ A donut chart illustrating how respondents perceived entering the field.
 
 - Shows varying levels of entry difficulty
 - Useful for career changers and aspiring analysts
-
-<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<p align="center">
+<img src="https://imgur.com/k14kduh.png" height="50%%" width="50%%" />
 <br />
 <br />
 
+<h2>Project Outcome</h2>
+
+This dashboard transforms raw survey data into an accessible and interactive business intelligence solution that helps stakeholders better understand trends within the data profession landscape.
+
+The project demonstrates the ability to convert survey data into actionable insights while applying best practices in dashboard design and data storytelling.
 
