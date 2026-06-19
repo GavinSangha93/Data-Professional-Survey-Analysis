@@ -41,6 +41,7 @@ The dataset includes:
 - Industry
 - Career transition status
 - Current salary
+
 <b>Technical Skills</b>
 
 - Favorite programming language
@@ -75,6 +76,105 @@ The dataset includes:
  
 - Microsoft Excel
     - Source dataset storage
-      
+
+<h2>Dashboard Preview</h2>
+
+<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<br />
+<br />
+
+<h2>Dashboard Components</h2>
+
+The dashboard contains several visualizations designed to answer key business questions.
+
+<h3>1. KPI Cards</h3>
+
+- Total survey participants
+- Average age of respondents
+
+<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<br />
+<br />
+
+<h3>2. Average Salary by Job Title</h3>
+
+This visualization compares average salaries across various data professions and highlights compensation differences between roles.
+
+<b>Insights:</b>
+
+- Identifies the highest-paying roles
+- Allows comparison between career paths
+- Helps users understand compensation expectations
+
+<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<br />
+<br />
+
+<h3>Favorite Programming Language</h3>
+
+A column chart showing the most popular programming languages among data professionals.
+
+<b>Insights:</b>
+
+- Python emerged as the dominant programming language
+- Highlights industry skill preferences
+- Useful for individuals entering the field
+
+<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<br />
+<br />
+
+<h3>Country of Participants</h3>
+
+A treemap visualizing geographic distribution.
+
+<b>Insights:</b>
+
+- Survey participants came from multiple countries
+- The United States had the largest representation
+- Demonstrates the global demand for data careers
+
+<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<br />
+<br />
+
+<h3>Satisfaction with Work-Life Balance</h3>
+
+A gauge visualization measuring overall work-life balance satisfaction.
+
+<b>Insights:</b>
+
+- Provides a quick assessment of employee well-being
+- Helps identify overall sentiment within the industry
+
+<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<br />
+<br />
+
+<h3>Satisfaction with Salary</h3>
+
+A gauge visualization showing overall salary satisfaction.
+
+<b>Insights:</b>
+
+- Measures how compensation aligns with employee expectations
+- Can highlight gaps between salary and satisfaction
+
+<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<br />
+<br />
+
+<h3>Difficulty Breaking Into Data</h3>
+
+A donut chart illustrating how respondents perceived entering the field.
+
+<b>Insights:</b>
+
+- Shows varying levels of entry difficulty
+- Useful for career changers and aspiring analysts
+
+<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
+<br />
+<br />
 
 
