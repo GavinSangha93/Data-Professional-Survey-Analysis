@@ -1,211 +1,88 @@
-<h1>Data Professional Survey Analysis | Power BI Dashboard</h1>    
+# Data Professional Survey Analysis
 
-<h2>Project Overview</h2>
+A Power BI dashboard analyzing survey responses from data professionals across job roles, countries, salary levels, programming-language preferences, career satisfaction, and perceived difficulty entering the field.
 
-This project analyzes survey responses from professionals working in data-related careers to uncover trends in salaries, programming language preferences, job satisfaction, and career entry challenges.
+## Analytical Questions
 
-Using Microsoft Power BI, an interactive dashboard was developed to transform raw survey data into meaningful business insights that can help aspiring data professionals, recruiters, hiring managers, and organizations better understand the current data job market.
+- Which roles reported the highest average salaries?
+- Which programming languages were most frequently selected?
+- Where were survey respondents located?
+- How satisfied were respondents with salary and work-life balance?
+- How difficult did respondents find entering the data field?
 
-The dashboard enables users to quickly identify compensation trends, popular technical skills, regional representation, and factors that influence career satisfaction within the data industry.
+## Dataset
 
-<h2>Business Problem</h2>
+The source contains **630 survey responses** and **28 fields** covering professional background, salary, technical preferences, satisfaction, career entry, and demographics.
 
-The field of data analytics continues to grow rapidly, but there is often limited visibility into:
+## What I Built
 
-- Which data careers are most common
-- Salary expectations across different roles
-- Preferred programming languages among professionals
-- How difficult it is to break into the data field
-- Overall employee satisfaction regarding salary and work-life balance
+- Imported and reviewed the survey data in Power BI.
+- Cleaned and standardized fields for reporting.
+- Applied appropriate data types and prepared dashboard measures.
+- Built KPI cards and visual comparisons for salary, language preference, geography, satisfaction, and entry difficulty.
+- Combined the analysis into a one-page interactive dashboard.
 
-This project was created to answer these questions through exploratory data analysis and interactive visualizations.
+## Dashboard Preview
 
-<h2>Dataset Information</h2>
+![Power BI data professional survey dashboard](https://imgur.com/v4LLNFs.png)
 
-The dataset contains survey responses collected from data professionals worldwide.
+## Dashboard Walkthrough
 
-<b>Dataset Characteristics</b>
+### Respondent Overview
 
-- 630 survey responses
-- 28 variables/features
-- Global representation from multiple countries
-- Demographic, professional, and satisfaction-related information
+![Cards showing survey response count and average respondent age](https://imgur.com/eL1diev.png)
 
-<b>Data Categories</b>
+The KPI cards establish the sample size and average age represented in the dashboard.
 
-The dataset includes:
+### Average Salary by Job Title
 
-<b>Professional Information</b>
+![Bar chart comparing average salary by data job title](https://imgur.com/HBljRmT.png)
 
-- Current job title
-- Industry
-- Career transition status
-- Current salary
+This view compares reported average salaries across the roles represented in the survey.
 
-<b>Technical Skills</b>
+### Favorite Programming Language
 
-- Favorite programming language
+![Chart showing favorite programming languages by job title](https://imgur.com/2Gxhltu.png)
 
-<b>Job Satisfaction Metrics</b>
+Python was the most frequently selected language in the displayed results.
 
-- Salary satisfaction
-- Work-life balance satisfaction
-- Coworker satisfaction
-- Management satisfaction
-- Upward mobility satisfaction
-- Learning opportunities satisfaction
-  
-<b>Career Entry Information</b>
-- Difficulty breaking into data
-- Most important factor when job searching
+### Respondent Geography
 
-<b>Demographics</b>
-- Age
-- Gender
-- Country
-- Education level
-- Ethnicity
+![Treemap showing survey respondents by country](https://imgur.com/55ajZ3b.png)
 
-<h2>Tools Used</h2>
+The United States accounts for the largest share of respondents, so worldwide comparisons should be interpreted cautiously.
 
-- Microsoft Power BI
-    - Data transformation
-    - Interactive dashboard development
-    - Data visualization
-    - KPI creation
- 
-- Microsoft Excel
-    - Source dataset storage
+### Work-Life Balance and Salary Satisfaction
 
-<h2>Analysis Process</h2>
+![Gauge showing average work-life balance satisfaction](https://imgur.com/tl5o4J8.png)
 
-<b>1. Data Preparation</b>
-- Imported survey dataset into Power BI
-- Reviewed and cleaned data fields
-- Standardized categorical values where necessary
-  
-<b>2. Data Modeling</b>
-- Organized survey variables
-- Established appropriate data types
-- Prepared measures for visualization
-  
-<b>3. Dashboard Development</b>
+![Gauge showing average salary satisfaction](https://imgur.com/68zi1tc.png)
 
-Built interactive visualizations to answer key questions:
+The gauges summarize the average satisfaction ratings reported by participants.
 
-- What roles earn the highest salaries?
-- Which programming languages are most popular?
-- Where are respondents located?
-- How satisfied are professionals with their careers?
-- How difficult is it to enter the field?
-  
-<b>4. Insight Generation</b>
+### Difficulty Entering the Data Field
 
-Analyzed patterns to identify meaningful trends across the data profession landscape.
+![Donut chart showing perceived difficulty entering data careers](https://imgur.com/k14kduh.png)
 
-<h2>Dashboard Preview</h2>
+This view summarizes respondents' self-reported experience breaking into the field.
 
-<img src="https://imgur.com/v4LLNFs.png" height="100%" width="100%" />
-<br />
-<br />
+## Business Use
 
-<h2>Dashboard Components</h2>
+Recruiters, career changers, and workforce teams could use the dashboard as a high-level snapshot of the surveyed population. It is most useful for generating follow-up questions, not as a definitive representation of the entire data profession.
 
-The dashboard contains several visualizations designed to answer key business questions.
+## Limitations and Next Steps
 
-<h3>1. KPI Cards</h3>
+- The results come from a self-selected sample of 630 respondents.
+- Salaries and satisfaction measures are self-reported.
+- Country and job-title groups may have unequal or small sample sizes.
+- Average salary comparisons should be paired with respondent counts and, where possible, medians.
+- A next version could add sample-size tooltips, demographic filters, and distribution views to provide more context.
 
-- Total survey participants
-- Average age of respondents
-<p align="center">
-<img src="https://imgur.com/eL1diev.png" height="50%" width="50%" />
-<br />
-<br />
+## Tools and Skills
 
-<h3>2. Average Salary by Job Title</h3>
+**Power BI · Microsoft Excel · Power Query · Data Cleaning · Survey Analysis · KPI Design · Dashboard Development · Data Visualization**
 
-This visualization compares average salaries across various data professions and highlights compensation differences between roles.
+## Project Files
 
-<b>Insights:</b>
-
-- Identifies the highest-paying roles
-- Allows comparison between career paths
-- Helps users understand compensation expectations
-<p align="center">
-<img src="https://imgur.com/HBljRmT.png" height="50%%" width="50%%" />
-<br />
-<br />
-
-<h3>3. Favorite Programming Language</h3>
-
-A column chart showing the most popular programming languages among data professionals.
-
-<b>Insights:</b>
-
-- Python emerged as the dominant programming language
-- Highlights industry skill preferences
-- Useful for individuals entering the field
-<p align="center">
-<img src="https://imgur.com/2Gxhltu.png" height="50%%" width="50%%" />
-<br />
-<br />
-
-<h3>4. Country of Participants</h3>
-
-A treemap visualizing geographic distribution.
-
-<b>Insights:</b>
-
-- Survey participants came from multiple countries
-- The United States had the largest representation
-- Demonstrates the global demand for data careers
-<p align="center">
-<img src="https://imgur.com/55ajZ3b.png" height="50%%" width="50%%" />
-<br />
-<br />
-
-<h3>5. Satisfaction with Work-Life Balance</h3>
-
-A gauge visualization measuring overall work-life balance satisfaction.
-
-<b>Insights:</b>
-
-- Provides a quick assessment of employee well-being
-- Helps identify overall sentiment within the industry
-<p align="center">
-<img src="https://imgur.com/tl5o4J8.png" height="50%%" width="50%%" />
-<br />
-<br />
-
-<h3>6. Satisfaction with Salary</h3>
-
-A gauge visualization showing overall salary satisfaction.
-
-<b>Insights:</b>
-
-- Measures how compensation aligns with employee expectations
-- Can highlight gaps between salary and satisfaction
-<p align="center">
-<img src="https://imgur.com/68zi1tc.png" height="50%%" width="50%%" />
-<br />
-<br />
-
-<h3>7. Difficulty Breaking Into Data</h3>
-
-A donut chart illustrating how respondents perceived entering the field.
-
-<b>Insights:</b>
-
-- Shows varying levels of entry difficulty
-- Useful for career changers and aspiring analysts
-<p align="center">
-<img src="https://imgur.com/k14kduh.png" height="50%%" width="50%%" />
-<br />
-<br />
-
-<h2>Project Outcome</h2>
-
-This dashboard transforms raw survey data into an accessible and interactive business intelligence solution that helps stakeholders better understand trends within the data profession landscape.
-
-The project demonstrates the ability to convert survey data into actionable insights while applying best practices in dashboard design and data storytelling.
-
+- **Data Survey.pbix** — completed Power BI report.
+- **Power BI - Final Project.xlsx** — source survey dataset.
